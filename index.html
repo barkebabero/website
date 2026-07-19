@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bar Kebabero | Kebab en Madrid</title>
+
+    <meta name="description" content="Bar Kebabero - Kebab, comida rápida y pedidos por WhatsApp en Madrid.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#1c1c1c">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Bar Kebabero Logo">
+    </div>
+
+    <h1>Bar Kebabero</h1>
+
+    <button id="cartButton">
+        🛒 Carrito
+        <span id="cartCount">0</span>
+    </button>
+
+</header>
+
+
+<section class="hero">
+
+    <h2>El mejor kebab de Madrid</h2>
+
+    <p>
+        Sabor auténtico, ingredientes frescos y pedidos fáciles por WhatsApp.
+    </p>
+
+
+    <button onclick="scrollToMenu()">
+        Ver menú
+    </button>
+
+
+    <a class="whatsapp-button"
+       href="#"
+       id="heroWhatsapp">
+
+        Pedir por WhatsApp
+    </a>
+
+
+</section>
+
+
+
+<section class="info">
+
+<div>
+<h3>📍 Dirección</h3>
+<p>
+Calle Párroco Don Emilio Franco 52<br>
+28053 Madrid
+</p>
+</div>
+
+
+<div>
+
+<h3>📞 Reservas</h3>
+
+<a href="tel:+34123456789">
+Llamar ahora
+</a>
+
+</div>
+
+
+<div>
+
+<h3>🎂 Cumpleaños</h3>
+
+<p>
+Ven con un grupo de 4 personas o más
+y disfruta de nuestra promoción especial.
+</p>
+
+</div>
+
+</section>
+
+
+
+<section id="menu">
+
+<h2>Nuestro menú</h2>
+
+
+<div id="categories"></div>
+
+
+<div id="products"></div>
+
+
+</section>
+
+
+
+
+<section class="delivery">
+
+<h2>Servicio a domicilio</h2>
+
+
+<p>
+Realizamos entregas dentro de un radio máximo de 1 km.
+</p>
+
+
+<p>
+Los pedidos deben realizarse desde Madrid Centro
+(Zona A).
+</p>
+
+
+</section>
+
+
+
+
+
+<section class="reservation">
+
+
+<h2>Reserva tu mesa</h2>
+
+
+<p>
+Para reservar llama directamente al restaurante.
+</p>
+
+
+<a class="call-button"
+href="tel:+34123456789">
+
+📞 Reservar mesa
+
+</a>
+
+
+</section>
+
+
+
+
+<section class="location">
+
+
+<h2>Encuéntranos</h2>
+
+
+<p>
+Calle Párroco Don Emilio Franco 52,
+Madrid
+</p>
+
+
+<a target="_blank"
+href="https://www.google.com/maps/search/?api=1&query=Calle+Parroco+Don+Emilio+Franco+52+Madrid">
+
+Abrir Google Maps
+
+</a>
+
+
+</section>
+
+
+
+
+<div id="cartModal" class="modal">
+
+
+<div class="cart-box">
+
+
+<h2>Tu pedido</h2>
+
+
+<div id="cartItems"></div>
+
+
+<div id="cartTotal"></div>
+
+
+<input 
+id="customerName"
+placeholder="Nombre">
+
+
+<textarea
+id="customerNotes"
+placeholder="Notas del pedido">
+</textarea>
+
+
+<label>
+
+<input type="checkbox" id="privacyCheck">
+
+Acepto la política de privacidad
+
+</label>
+
+
+<button id="sendWhatsapp">
+
+Enviar pedido por WhatsApp
+
+</button>
+
+
+<button id="closeCart">
+
+Cerrar
+
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<footer>
+
+
+<p>
+© Bar Kebabero
+</p>
+
+
+<a href="legal/privacidad.html">
+Privacidad
+</a>
+
+
+<a href="legal/cookies.html">
+Cookies
+</a>
+
+
+<a href="legal/aviso-legal.html">
+Aviso Legal
+</a>
+
+
+</footer>
+
+
+
+<script src="js/cart.js"></script>
+
+<script src="js/whatsapp.js"></script>
+
+<script src="js/app.js"></script>
+
+
+
+</body>
+
+</html>

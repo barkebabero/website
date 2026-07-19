@@ -1,0 +1,130 @@
+{
+    "restaurant": "Bar Kebabero",
+
+    "currency": "EUR",
+
+    "version": 1,
+
+
+    "settings": {
+
+        "deliveryRadiusKm": 1,
+
+        "allowedArea": "Madrid Metro Zona A",
+
+        "whatsapp": "+34123456789"
+
+    },
+
+
+    "categories": [
+
+        {
+            "id": "kebab",
+            "name": "Kebabs"
+        },
+
+        {
+            "id": "menus",
+            "name": "Menús"
+        },
+
+        {
+            "id": "extras",
+            "name": "Extras"
+        },
+
+        {
+            "id": "drinks",
+            "name": "Bebidas"
+        },
+
+        {
+            "id": "desserts",
+            "name": "Postres"
+        }
+
+    ],
+
+
+    "products": [
+
+        {
+            "id": 1,
+            "category": "kebab",
+            "name": "Kebab clásico",
+            "description": "Pan recién preparado con carne, ensalada y salsa.",
+            "price": 6.50,
+            "available": true,
+            "image": "images/kebab.jpg"
+        },
+
+
+        {
+            "id": 2,
+            "category": "kebab",
+            "name": "Durum Kebab",
+            "description": "Durum enrollado con carne, verduras frescas y salsa.",
+            "price": 7.00,
+            "available": true,
+            "image": "images/durum.jpg"
+        },
+
+
+        {
+            "id": 3,
+            "category": "menus",
+            "name": "Menú Kebab",
+            "description": "Kebab + patatas + bebida.",
+            "price": 9.50,
+            "available": true,
+            "image": "images/menu-kebab.jpg"
+        },
+
+
+        {
+            "id": 4,
+            "category": "extras",
+            "name": "Patatas fritas",
+            "description": "Patatas crujientes.",
+            "price": 3.00,
+            "available": true,
+            "image": "images/fries.jpg"
+        },
+
+
+        {
+            "id": 5,
+            "category": "extras",
+            "name": "Salsa extra",
+            "description": "Salsa adicional.",
+            "price": 0.50,
+            "available": true,
+            "image": "images/sauce.jpg"
+        },
+
+
+        {
+            "id": 6,
+            "category": "drinks",
+            "name": "Refresco",
+            "description": "Lata fría.",
+            "price": 2.00,
+            "available": true,
+            "image": "images/drink.jpg"
+        },
+
+
+        {
+            "id": 7,
+            "category": "desserts",
+            "name": "Baklava",
+            "description": "Dulce tradicional.",
+            "price": 3.50,
+            "available": true,
+            "image": "images/baklava.jpg"
+        }
+
+    ]
+
+}

@@ -78,6 +78,46 @@ button {
 
 
 
+/* Privacy Checkbox */
+
+.privacy-label{
+
+display:block;
+
+margin:20px 0;
+
+font-size:15px;
+
+line-height:1.6;
+
+color:#f5f5f5;
+
+}
+
+.privacy-label input{
+
+margin-right:8px;
+
+transform:scale(1.2);
+
+}
+
+.privacy-label a{
+
+color:#FFD166;
+
+font-weight:bold;
+
+text-decoration:none;
+
+}
+
+.privacy-label a:hover{
+
+text-decoration:underline;
+
+}
+
 /* ---------- HEADER ---------- */
 
 

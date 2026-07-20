@@ -146,9 +146,11 @@ function openCart(){
 
 
 const modal =
-document.getElementById(
-"cartModal"
-);
+document
+.getElementById(
+"cartButton"
+)
+.onclick=openCart;
 
 
 modal.style.display="block";
